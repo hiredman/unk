@@ -28,13 +28,13 @@
   {:author "fogus"}
 
   (:require fogus.clache)
-  (:import [fogus.clache CacheProtocol])
-  (:import [fogus.clache BasicCache])
-  (:import [fogus.clache FIFOCache])
-  (:import [fogus.clache LRUCache])
-  (:import [fogus.clache LUCache])
-  (:import [fogus.clache TTLCache])
-  (:import [fogus.clache SoftCache]))
+  (:import (fogus.clache CacheProtocol
+                         BasicCache
+                         FIFOCache
+                         LRUCache
+                         LUCache
+                         TTLCache
+                         SoftCache))
 
 ;; Plugging Interface
 
