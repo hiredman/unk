@@ -34,7 +34,7 @@
                          LRUCache
                          LUCache
                          TTLCache
-                         SoftCache))
+                         SoftCache)))
 
 ;; Plugging Interface
 
